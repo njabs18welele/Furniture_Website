@@ -1,0 +1,316 @@
+ *{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+} 
+
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(background1.jpg);
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	object-fit: cover;
+}
+
+.navigationbar{
+	position: fixed;
+	width: 135%; 
+	margin:auto;
+	height: 75px;
+	
+	
+}.icon{
+	width: 200px;
+	float: left;
+	height: 70px;
+} 
+
+
+.logo{
+	color: #ffffff;
+	font-size: 35px;
+	font-family: Arial; 
+	padding-left: 10px;
+	float: left;
+	padding-top: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.menu{
+	width: 70%;
+	float: left;
+	height: 70px;
+   
+}
+
+
+
+ul{
+	float: left;
+	display: flex;
+ 	justify-content: center;
+	align-items: center;
+
+}
+
+ul li{
+	list-style: none;
+	margin-left: 62px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+
+
+ul li a{
+	text-decoration: none;
+    color: #ffffff;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.5 ease-in-out;
+}
+ul li a:hover{
+color: #ff7200; 
+}
+
+.search{
+    width: 20%;
+	float: left;
+	justify-content: flex-end;
+	margin-right: 240px;
+	position: absolute;
+	top: 0;
+	right: 180px;
+
+
+              }
+
+.srch{
+  	 font-family: 'Time New Roman';
+   	width: 40%;
+	height: 40px;
+	background: transparent;
+	margin-top: 13px;
+	border:1px solid #ff7200;
+	color: #fff;
+	border-right: none;
+	float: left;
+	font-size: 16px;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+ 	border-top-left-radius: 5px;
+	
+	
+}
+
+.btn{
+     width: 100px;
+	height: 40px;
+	background: #ff7200;
+	border: 2px solid #ff7200;
+	margin-top: 13px;
+	color: #fff;
+	border-bottom-left-radius: 5px;
+ 	border-top-left-radius: 5px;
+}
+
+.row{
+    color: #ff7200;
+	font-size: 20px;
+	font-family: Arial; 
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+	
+}
+
+
+
+.banner {
+ 
+  width: 70%;
+  height: 30%;
+  bottom: 0;
+  margin-bottom: 530px;
+}
+
+
+.raw{
+    color: #ff7200;
+	font-size: 15px;
+	font-family: Arial; 
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+	margin-bottom: 40px;
+	transform: translateY(40px);
+	
+}
+
+.gallery{
+	width: 10px;
+	padding: 5px;
+	display: inline;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0;
+}
+
+.content{
+	display: inline;
+	width: 15%;
+	margin: 15px;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	border-radius: 20px;
+	cursor: pointer;
+	padding-top: 10px;
+	padding: 40px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+	transition: 4s;
+	background: #f2f2f2;
+}
+.content:hover{
+	box-shadow: 0 3p 6px rgba(0,0,0,0.16),0 3p 6px rgba(0,0,0,0.23);
+	transform: translate(0px, -8px);
+
+}
+
+.banner img{
+	width: 90%;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+p{
+	text-align: center;
+	color: #ff7200;
+	padding-top: 0 8px;
+
+}
+
+h6{
+	font-size: 26px;
+	text-align: center;
+	color: #ff7200;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.container{
+
+	width: 50%;
+	margin: 50px auto;
+	margin-bottom: 40px;
+	margin-left: 20px;
+
+}
+
+h1{
+	font-size: 26px;
+	text-align: left;
+	color: #ff7200;
+	margin: 0;
+	margin-bottom: 20px
+}
+
+.contact-box{
+	background: #f2f2f2;
+	display: flex;
+	margin-bottom: 40px
+}
+.contact-left{
+flex-basis: 60%;
+padding: 40px 60px;
+
+
+}
+.contact-right{
+	flex-basis: 40%;
+	padding: 40px;
+	background: #ff7200;
+	
+	
+	}
+
+.container p{
+	margin-bottom: 20px;
+}
+.input-row{
+		overflow: auto;
+		justify-content: space-between;
+		margin-bottom: 20px;
+
+	  }
+	  
+.container input{
+		float: right;
+		clear: right;
+		margin-left: 10px;
+	  }
+
+h3{
+		font-size: 26px;
+		text-align: left;
+		color: #ff7200;
+		margin: 0;
+		margin-bottom: 20px
+	}
+textarea{
+	width:100%;
+	border: 1px solid #ccc;
+	outline: none;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+label{
+	margin-bottom: 6px;
+	display: block;
+	color: #ff7200;
+
+}
+
+
+tr td:first-child{
+	padding-right: 20px;
+	margin-bottom: 20px;
+}
+
+.col{
+	text-indent: 50px;
+	position: fixed;
+	margin-top: -35px;
+	
+
+}
+.slogan{
+	
+		text-indent: 50px;
+		position: fixed;
+		margin-top: 90px;
+		margin-bottom: 80px;		
+
+}
+
+
+
+
+
+
+
+ 

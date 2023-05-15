@@ -1,0 +1,123 @@
+<html>
+
+<head>
+    <title>HomeGoods</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initialscale=1">
+
+
+
+    
+</head>
+<body>
+
+
+    <div class="home">
+		<div class="navigationbar">
+            <div class="icon">
+			    <h2 class = "logo">HomeGoods</h2>
+		    </div>
+            <div class="menu">
+                        <ul>
+                            <li><a href="./store.html">HOME</a></li>
+                            <li><a href="./furniture.html">FUNITURE</a></li>
+                            <li><a href="./decor.html">DECOR</a></li>
+                            <li><a href="./kitchenware.html">KITCHENWARE</a></li>
+                            <li><a href="./Contact.html">CONTACT</a></li>
+                            <li><a href="./locator.html">LOCATIONS</a></li>
+
+
+                        </ul>
+            </div> 
+            <div class="search">
+                <input class="srch" type= "search" name="" placeholder="Type To text">
+                <a href= "#"> <button class="btn">Search</button></a>
+            </div>
+        </div>
+	<div class="row">
+	    <div class="slogan">
+                <h2>Transform your space, transform your life.</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container2">
+   <!-- Slider main container -->
+   <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="banner.jpg" ></div>
+      <div class="swiper-slide"><img src="banner3.jpg" ></div>
+      <div class="swiper-slide"><img src="banner.jpg" ></div>
+      
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+
+
+  <div class="login">
+    <button class="login-btn"><a href="./login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>Login </a></button>
+   </div>
+    
+</div>
+   
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+  // Optional parameters
+
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+});
+
+    
+ 
+</script>
+<footer class="sticky-footer">
+ <ul>
+    <li><a href= "./about.html">About us</a></li>
+    <li><a href= "./terms.html"> Terms and Conditions</a></li>
+    <li><a href="./Contact.html">Contact</a></li>
+    <li><a href="#">Careers</a></li>
+    <li><a href="./help.html">Help</a></li>
+ </ul>
+ <p> @ Copyright HomeGoods 2023. All rights reserved</p>
+</footer>
+
+</div>
+
+</body>
+
+ 
+</html>
+	    
